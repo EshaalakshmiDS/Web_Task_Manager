@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwiftList</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="mt-4 mb-4">☑️ SwiftList ☑️</h1>
+
+        <!-- Task Form -->
+        <form id="taskForm">
+            <div class="form-group">
+                <strong><label for="eventTime">Task Name</label></strong>
+                <input type="text" class="form-control" id="taskName" required>
+            </div>
+            <div class="form-group">
+                <strong><label for="eventTime">Deadline</label></strong>
+                <input type="date" class="form-control" id="deadline" required>
+            </div>
+            <div class="form-group">
+                <strong><label for="eventTime">Event Time</label></strong>
+                <input type="time" class="form-control" id="eventTime" required>
+            </div>
+            <div class="form-group">
+                <strong><label for="eventTime">Priority</label></strong>
+                <select class="form-control" id="priority" required>
+                    <option value="High">High</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Low">Low</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <strong><label for="eventTime">Label</label></strong>
+                <input type="text" class="form-control" id="label" required>
+            </div>
+            <button type="button" class="btn btn-dark" onclick="addTask()">Add Task</button>
+        </form>
+
+        <!-- Task List and Completed Task List -->
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <h2 style="color: rgb(73, 3, 24);">Task List 📌</h2>
+                <ul id="taskList" class="list-group">
+                    <!-- Tasks will be dynamically added here -->
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h2 style="color: rgb(73, 3, 24);">Completed Tasks 📋</h2>
+                <ul id="completedTaskList" class="list-group">
+                    <!-- Completed tasks will be dynamically added here -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
