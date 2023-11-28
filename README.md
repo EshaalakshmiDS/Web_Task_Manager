@@ -8,7 +8,7 @@ I aimed to create this application by employing HTML, CSS, JavaScript, and Boots
 
 ### Demo
 
-A live demo can be found [here]
+A live demo can be found [here](https://eshaalakshmids.github.io/OCTANET_NOVEMBER-Task2/)
 
 ### Features
 
