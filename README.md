@@ -1,9 +1,5 @@
-# OCTANET_NOVEMBER-Task2
-
-The 2nd project undertaken during my Web Development Internship at Octanet Services (Nov-2023)
-
-## Project 2- To Do List 
-The assigned task was to build a simple and effective To-Do List application designed to help users manage tasks related to website projects.<br>
+# Simple To Do List 
+The task was to build a simple and effective To-Do List application designed to help users manage tasks related to website projects.<br>
 I aimed to create this application by employing HTML, CSS, JavaScript, and Bootstrap. SwiftList is a robust To-Do List application designed for efficient task management. It offers features such as categorization, deadline tracking, priority assignment, and responsive design for seamless user experience, ensuring clarity and organization in project tasks. SwiftList encourages collaboration and contributions for continuous improvement.
 
 ### Demo
