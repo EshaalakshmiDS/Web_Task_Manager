@@ -4,7 +4,7 @@ I aimed to create this application by employing HTML, CSS, JavaScript, and Boots
 
 ### Demo
 
-A live demo can be found [here](https://github.com/EshaalakshmiDS/Web_Task_Manager)
+A live demo can be found [here](https://eshaalakshmids.github.io/Web_Task_Manager/)
 
 ### Features
 
